@@ -1,0 +1,51 @@
+[debug] [2025-05-19T06:14:51.640Z] ----------------------------------------------------------------------
+[debug] [2025-05-19T06:14:51.644Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\d_unt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-19T06:14:51.644Z] CLI Version:   14.4.0
+[debug] [2025-05-19T06:14:51.644Z] Platform:      win32
+[debug] [2025-05-19T06:14:51.645Z] Node Version:  v22.13.0
+[debug] [2025-05-19T06:14:51.645Z] Time:          Mon May 19 2025 00:14:51 GMT-0600 (Central Standard Time)
+[debug] [2025-05-19T06:14:51.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-19T06:14:51.871Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-19T06:14:51.872Z] > authorizing via signed-in user (4liyat@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\pint-todo
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-19T06:18:26.550Z] Using project from CLI flag: todo-list-crud-a504b
+[debug] [2025-05-19T06:18:26.552Z] Checked if tokens are valid: true, expires at: 1747638233803
+[debug] [2025-05-19T06:18:26.552Z] Checked if tokens are valid: true, expires at: 1747638233803
+[debug] [2025-05-19T06:18:26.553Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-crud-a504b [none]
+[debug] [2025-05-19T06:18:26.944Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-crud-a504b 200
+[debug] [2025-05-19T06:18:26.944Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-crud-a504b {"projectId":"todo-list-crud-a504b","projectNumber":"614412274444","displayName":"todo list CRUD","name":"projects/todo-list-crud-a504b","resources":{"hostingSite":"todo-list-crud-a504b"},"state":"ACTIVE","etag":"1_1aa8361d-4296-42e7-8202-ce341a7869ce"}
+[info] i  Using project todo-list-crud-a504b (todo list CRUD) 
+[info] 
+=== Hosting Setup
+[debug] [2025-05-19T06:18:26.957Z] Checked if tokens are valid: true, expires at: 1747638233803
+[debug] [2025-05-19T06:18:26.957Z] Checked if tokens are valid: true, expires at: 1747638233803
+[debug] [2025-05-19T06:18:26.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-crud-a504b [none]
+[debug] [2025-05-19T06:18:27.147Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-crud-a504b 200
+[debug] [2025-05-19T06:18:27.147Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-crud-a504b {"projectId":"todo-list-crud-a504b","projectNumber":"614412274444","displayName":"todo list CRUD","name":"projects/todo-list-crud-a504b","resources":{"hostingSite":"todo-list-crud-a504b"},"state":"ACTIVE","etag":"1_1aa8361d-4296-42e7-8202-ce341a7869ce"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
